@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  max-width: 1024px;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.section9-container {
+  .section9-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .section9-heading {
+      font-weight: 700;
+      font-size: 56px;
+      line-height: 66px;
+    }
+
+    .section9-title {
+      font-weight: 500;
+      line-height: 32px;
+      color: #000000cc;
+      max-width: 734px;
+      text-align: center;
+    }
+  }
+
+  .section9-card,
+  .section9-card-bottom {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 20px;
+    border: 1px solid blanchedalmond;
+    padding: 20px;
+    transition: 0.5s all ease-in-out;
+
+    &:hover {
+      box-shadow: 0px 2px 8px;
+    }
+
+    .cards-title {
+      font-weight: 600;
+      font-size: 23px;
+      line-height: 35px;
+      letter-spacing: -1px;
+      color: #000000;
+    }
+
+    .cards-para {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 32px;
+      color: #000000;
+      max-width: 283px;
+    }
+  }
+
+  // background colors
+  .bcg1 {
+    background-color: #2575fc1a;
+  }
+  .bcg2 {
+    background-color: #f5953a1a;
+  }
+  .bcg3 {
+    background-color: #1de2cf1a;
+  }
+  .bcg4 {
+    background-color: #fc25d81a;
+  }
+  .bcg5 {
+    background-color: #fcdc001a;
+  }
+}

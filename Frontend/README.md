@@ -1,11 +1,11 @@
-# React SCSS Cards Project 🎴
+# React SCSS Cards Project
 
 A beginner-friendly **React + SCSS** project showcasing a **card-based layout** using **Flexbox + responsive design**.  
 This project demonstrates reusable React components styled with SCSS and hover effects.
 
 ---
 
-## 🛠️ Features
+##  Features
 - Built with **React (Vite / CRA)**
 - Styling using **SCSS (Sass)**
 - Card-based layout with **Flexbox**
@@ -15,7 +15,7 @@ This project demonstrates reusable React components styled with SCSS and hover e
 
 ---
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
 1. Clone the repo:
    ```bash
